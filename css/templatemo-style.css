@@ -5,7 +5,11 @@ Product Admin CSS Template
 https://templatemo.com/tm-524-product-admin
 
 */
-
+#logo{
+  width: 330px;
+  height: 150px;
+  box-shadow: 2px 2px 6px 0 rgb(86, 114, 26);
+}
 html {
   font-size: 16px;
   overflow-x: hidden;

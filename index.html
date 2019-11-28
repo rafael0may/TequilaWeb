@@ -38,7 +38,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="#">
                                 <i class="fas fa-tachometer-alt"></i>
-                                Dashboard
+                                Principal
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -48,26 +48,26 @@
                                 aria-haspopup="true" aria-expanded="false">
                                 <i class="far fa-file-alt"></i>
                                 <span>
-                                    Reports <i class="fas fa-angle-down"></i>
+                                    Reportes <i class="fas fa-angle-down"></i>
                                 </span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Daily Report</a>
-                                <a class="dropdown-item" href="#">Weekly Report</a>
-                                <a class="dropdown-item" href="#">Yearly Report</a>
+                                <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1ftfFd2Er8roTeizDyuF7i0oF1Rf57_sg/edit#gid=964739288" target="_Blank">Daily Report</a>
+                                <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1UcfWFZTyLBJ1nADMvFy2CD5_gPp3V_a7/edit#gid=163895631" target="_Blank">Weekly Report</a>
+                                <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1BOyw50u8dMtRGMUoABpxks9FINKLMCXt/edit#gid=1735513427" target="_Blank">Yearly Report</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="products.html">
                                 <i class="fas fa-shopping-cart"></i>
-                                Products
+                                Libros
                             </a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="accounts.html">
                                 <i class="far fa-user"></i>
-                                Accounts
+                                Usuarios
                             </a>
                         </li>
                         <li class="nav-item dropdown">
@@ -99,34 +99,20 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <p class="text-white mt-5 mb-5">Welcome back, <b>Admin</b></p>
+                    <p class="text-white mt-5 mb-5"></p>
                 </div>
             </div>
             <!-- row -->
             <div class="row tm-content-row">
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
-                    <div class="tm-bg-primary-dark tm-block">
-                        <h2 class="tm-block-title">Latest Hits</h2>
-                        <canvas id="lineChart"></canvas>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
-                    <div class="tm-bg-primary-dark tm-block">
-                        <h2 class="tm-block-title">Performance</h2>
-                        <canvas id="barChart"></canvas>
-                    </div>
-                </div>
+
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block tm-block-taller">
-                        <h2 class="tm-block-title">Storage Information</h2>
-                        <div id="pieChartContainer">
-                            <canvas id="pieChart" class="chartjs-render-monitor" width="200" height="200"></canvas>
-                        </div>                        
+                            <img src="img/image0.jpeg" class="tm-site-title" id="logo2"/>                      
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow">
-                        <h2 class="tm-block-title">Notification List</h2>
+                        <h2 class="tm-block-title">Actualizaciones</h2>
                         <div class="tm-notification-items">
                             <div class="media tm-notification-item">
                                 <div class="tm-gray-circle"><img src="img/notification-01.jpg" alt="Avatar Image" class="rounded-circle"></div>
@@ -205,17 +191,17 @@
                 </div>
                 <div class="col-12 tm-block-col">
                     <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
-                        <h2 class="tm-block-title">Orders List</h2>
+                        <h2 class="tm-block-title">Ultimos movimientos</h2>
                         <table class="table">
                             <thead>
                                 <tr>
-                                    <th scope="col">ORDER NO.</th>
-                                    <th scope="col">STATUS</th>
-                                    <th scope="col">OPERATORS</th>
-                                    <th scope="col">LOCATION</th>
-                                    <th scope="col">DISTANCE</th>
-                                    <th scope="col">START DATE</th>
-                                    <th scope="col">EST DELIVERY DUE</th>
+                                    <th scope="col">ISBN</th>
+                                    <th scope="col">Status</th>
+                                    <th scope="col">Titulo</th>
+                                    <th scope="col">Reserva</th>
+                                    <th scope="col">Adquisición</th>
+                                    <th scope="col">Recolección</th>
+                                    <th scope="col">Usuario</th>
                                 </tr>
                             </thead>
                             <tbody>
